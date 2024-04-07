@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_meal"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@drawable/round_out"
+            android:clipToOutline="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/name_meal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meal Name"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="top"/>
+
+            <TextView
+                android:id="@+id/ingredients_meal"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Meal Ingredients"
+                android:textSize="12sp"
+                android:layout_gravity="center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FD3A69"
+                android:text="от 345 р"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_button"
+                android:layout_gravity="right"
+                android:layout_marginTop="60dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

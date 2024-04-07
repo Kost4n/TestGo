@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Питер</item>
+        <item>Калуга</item>
+        <item>Абакан</item>
+    </string-array>
+</resources>
